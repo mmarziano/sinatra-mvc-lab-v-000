@@ -8,7 +8,7 @@
     <h1>Pig Latinizer!</h1>
   
     <%new = PigLatinizer.new(params[:user_phrase])%>
-    <h2>new.phrase</h2>
+    <h2><%=new.phrase%></h2>
     
     <form action="/" method="GET">
       <input type="submit" value="Try Another"/>
