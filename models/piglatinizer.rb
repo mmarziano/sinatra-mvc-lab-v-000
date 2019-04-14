@@ -4,7 +4,7 @@ class PigLatinizer
   def piglatinize(user_phrase)
     words = []
     piglatin_words = []
-    words << self.user_phrase.split(' ')
+    words << user_phrase.split(' ')
     words.first.each do |i|
       if i.downcase.start_with?('a','e','i','o','u')
         new_word = i + 'way'
