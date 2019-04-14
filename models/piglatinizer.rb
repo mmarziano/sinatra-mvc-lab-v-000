@@ -10,7 +10,8 @@ class PigLatinizer
         new_word = i + 'way'
         piglatin_words << new_word
       else
-        if i.downcase.slice(1)
+        i.downcase.split(/([aeiou].*)/).first.length
+        binding.pry
         modified = i.slice(1, i.split('').count)
         first_letter = i.split('').first
         new_word = modified + first_letter + 'ay'
