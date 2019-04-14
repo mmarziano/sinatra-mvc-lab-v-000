@@ -17,7 +17,6 @@ class PigLatinizer
       end 
     end
     phrase = piglatin_words.join(' ')
-     binding.pry
     phrase
   end 
   
