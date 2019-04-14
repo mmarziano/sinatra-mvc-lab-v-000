@@ -15,7 +15,7 @@ class PigLatinizer
         new_word = modified + first_letter + 'ay'
         piglatin_words << new_word
       end 
-      @phrase = piglatin_words.join(' ')
+      phrase = piglatin_words.join(' ')
       binding.pry
     end
   end 
