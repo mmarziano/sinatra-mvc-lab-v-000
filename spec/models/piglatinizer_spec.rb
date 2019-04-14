@@ -20,7 +20,7 @@ describe 'class PigLatinizer' do
   end
 
   it 'has a method splits the sentence to piglatinize each word' do
-    expect(words.piglatinize("i love programming")).to eq("iway ovelay rogrammingpay")
+    expect(words.piglatinize("i love programming")).to eq("iway ovelay ogrammingpray")
   end
 
 end
