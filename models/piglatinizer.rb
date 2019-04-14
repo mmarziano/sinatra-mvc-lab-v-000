@@ -1,10 +1,5 @@
 class PigLatinizer 
-  attr_accessor :user_phrase, :phrase
   
-  def initialize(user_phrase)
-    @user_phrase = user_phrase
-    self.piglatinize
-  end 
   
   def piglatinize
     words = []
