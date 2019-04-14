@@ -10,7 +10,6 @@ class PigLatinizer
             cluster = i.downcase.split(/([aeiou].*)/).first.length
             modified = i.slice(cluster, i.split('').count - 1)
             first_consonants = i.split('')[0,cluster].join('')
-            binding.pry
             new_word = modified + first_consonants + 'ay'
             piglatin_words << new_word
       elsif
