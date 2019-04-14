@@ -6,7 +6,7 @@ class PigLatinizer
     self.piglatinize
   end 
   
-  def piglatinize(user_phrase)
+  def piglatinize
     words = []
     piglatin_words = []
     words << self.user_phrase.split(' ')
